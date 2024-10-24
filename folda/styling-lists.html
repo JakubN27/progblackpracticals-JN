@@ -10,6 +10,11 @@
       html {
         font-family: Helvetica, Arial, sans-serif;
         font-size: 10px;
+        background-color: black;
+        font-style: bold;
+      }
+      body {
+        color: white
       }
 
       h2 {
@@ -27,32 +32,49 @@
       /* Unordered list styles */
 
       ul {
-        padding-left: 2rem;
-        list-style-type: none;
+        list-style-type: circle;
+        background: #3399ff;
+        margin-left: 5px;
+        padding: 20px;
       }
 
       ul li {
-        padding-left: 2rem;
         background-image: url(star.svg);
         background-position: 0 0;
         background-size: 1.6rem 1.6rem;
-        background-repeat: no-repeat;
+        background: #cce5ff;
+        color: darkblue;
       }
 
       /* Ordered list styles */
 
       ol {
         list-style-type: upper-roman;
+        background: #ff9999;
+        padding: 20px;
+      }
+
+      ol li {
+        background: #ffe5e5;
+        color: darkred;
+        padding: 5px;
+        margin-left: 35px;
       }
 
       /* Description list styles */
 
       dd, dt {
-        line-height: 1.5;
+        line-height: 1;
+        margin-left: 50px;
+        background: #ffe5e5;
+        color: darkred;
+        padding: 10px;
       }
 
       dt {
         font-weight: bold;
+        font-size: large;
+        margin-left: 25px;
       }
 
     </style>
