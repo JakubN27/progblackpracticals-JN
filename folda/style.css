@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+  
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+ul {
+    list-style-type: circle;
+    background: #3399ff;
+    margin-left: 25px;
+    padding: 5px;
+  }
+
+ul li {
+    background-image: url(star.svg);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background: #cce5ff;
+    color: navy;
+}
+p{
+    color: navy;
+    margin-left: 30px;
+}
+.intro{
+    background-color: lightblue;
+    border-style: solid;
+    border-color: aliceblue;
+}
+.tropical{
+    background-color: #ff9999;
+    border-style: solid;
+    border-color: aliceblue;
+}
+#tropicaltext{
+    color: #630802;
+}
+table, th, td {
+    border: 2px solid;
+}
